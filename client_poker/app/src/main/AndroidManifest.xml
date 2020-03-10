@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.client_poker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/no_title">
+        <activity android:name=".game"></activity>
+        <activity android:name=".Learning" />
+        <activity android:name=".About" />
+        <activity
+            android:name=".MainActivity"
+            android:label="activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Pokeroom"
+            android:label="@string/title_activity_pokeroom"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode = "singleTop"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation"/>
+    </application>
+
+</manifest>
