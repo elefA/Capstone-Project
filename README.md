@@ -1,4 +1,6 @@
 # Capstone-Project 
+My Capstone was about a multi-player Android application that users could connect to a game server and play a simplified game of poker.
+
 The application runs locally either in a LAN environment or in the same computer using Android Emulators
 that run the mobile application part of the code.
 
